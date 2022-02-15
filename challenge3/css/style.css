@@ -18,7 +18,7 @@ body {
 }
 
 .wrapper {
-  min-width: 380px;
+  min-width: 300px;
   width: 50%;
   height: 100%;
   margin: 4rem auto;
@@ -194,4 +194,25 @@ body {
   color: #ffffff;
   padding: 0 1.5rem 0 1rem;
   font-size: 1.3rem;
+}
+
+@media (max-width: 885px){
+  .container__card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .container__main{
+    height: 55rem;
+  }
+
+  .container__card-button{
+    padding: 0;
+  }
+
+  .container__card-turn{
+    height: 20rem;
+  }
 }
